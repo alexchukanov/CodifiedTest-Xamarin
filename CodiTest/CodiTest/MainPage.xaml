@@ -38,14 +38,14 @@
             <BoxView  Margin="49, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.2"  HorizontalOptions="FillAndExpand"/>
 
             <StackLayout x:Name="Citizen5" Orientation="Horizontal" Margin="20, 0, 0, 0" Opacity="0.6" VerticalOptions="FillAndExpand">
-                <Image Source="citizen_24.png" />
+                <Image Source="history_24_7.png" />
                 <Label FontSize="10" Text="YOUR HISTORY" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center"/>
             </StackLayout>
 
             <BoxView  Margin="49, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.2"  HorizontalOptions="FillAndExpand"/>
 
             <StackLayout x:Name="Citizen6" Orientation="Horizontal" Margin="20, 0, 0, 0" Opacity="0.6" VerticalOptions="FillAndExpand">
-                <Image Source="citizen_24.png" />
+                <Image Source="notif_24_3.png" />
                 <Label FontSize="10" Text="NOTIFICATION" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center" />
                 <Image Source="not5_18.png" HorizontalOptions="EndAndExpand" Opacity="1" Margin="0, 0, 20, 0" />
             </StackLayout>
@@ -53,7 +53,7 @@
             <BoxView  Margin="49, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.2"  HorizontalOptions="FillAndExpand"/>
 
             <StackLayout x:Name="Citizen7" Orientation="Horizontal" Margin="20, 0, 0, 0" VerticalOptions="FillAndExpand" Opacity="0.6">
-                <Image Source="citizen_24.png" />
+                <Image Source="about_24_3.png" />
                 <Label FontSize="10" Text="ABOUT ASA" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center" />
             </StackLayout>
 

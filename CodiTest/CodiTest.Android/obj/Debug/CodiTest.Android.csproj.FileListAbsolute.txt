@@ -49,14 +49,8 @@ C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\layout\toolb
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\values\styles.xml
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\me.png
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable\me.png
-C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\ic_person_black_36dp.png
-C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\ic_person_black_18dp.png
-C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\citizen_36.png
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable\mer2.png
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable\mer3.png
-C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\ic_person_black_18dp_w.png
-C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\citizen_3.png
-C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\citizen_4.png
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\citizen_24.png
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\R.cs.flag
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\uploadflags.txt
@@ -68,5 +62,7 @@ C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\android\assets\F
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\not4_15.png
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\not5_18.png
+C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\notif_24_3.png
+C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\about_24_3.png
+C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\history_24_7.png
