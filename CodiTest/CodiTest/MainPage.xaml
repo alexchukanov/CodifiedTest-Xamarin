@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CodiTest"
+             x:Class="CodiTest.MainPage">
+    <ContentPage.Content>
+        <StackLayout Spacing="5" x:Name="layout" BackgroundColor="Black" >
+
+            <StackLayout x:Name="Profile" Spacing="3" BackgroundColor="White"  VerticalOptions="Start" HorizontalOptions="FillAndExpand" Padding="10">
+              
+                    <Label TextColor="Red" Text="Close X" FontSize="10"  HorizontalOptions="End" VerticalOptions="Start">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnLabelTapped" NumberOfTapsRequired="1" />
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                <Image Source="meR3.png"  />
+                <Label FontSize="10" Text="Alex Chukanov" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" />
+
+                <Label Text="VIEW PROFILE" TextColor="Red" FontSize="10" FontAttributes="Bold" HorizontalOptions="Center">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnLabelTapped" NumberOfTapsRequired="1" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+
+
+            <StackLayout x:Name="Citizen1" Orientation="Horizontal" Margin="20, 10, 0, 0" VerticalOptions="FillAndExpand">
+                <Image Source="citizen_24.png" />
+                <Label FontSize="10" Text="CITIZEN" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center"/>                
+            </StackLayout>
+
+            <BoxView  Margin="49, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.2"  HorizontalOptions="FillAndExpand"/>
+
+            <Label FontSize="10" Text="Request a Cleanup Job" TextColor="White" Margin="49, 0, 0, 0" /> 
+            <Label FontSize="10" Text="Reported Areas" TextColor="White" Margin="49, 0, 0, 0" VerticalTextAlignment="Center"/>
+            <Label FontSize="10" Text="Bless Our People" TextColor="White" Margin="49, 0, 0, 0" VerticalTextAlignment="Center"/>
+
+            <BoxView  Margin="49, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.2"  HorizontalOptions="FillAndExpand"/>
+
+            <StackLayout x:Name="Citizen5" Orientation="Horizontal" Margin="20, 0, 0, 0" Opacity="0.6" VerticalOptions="FillAndExpand">
+                <Image Source="citizen_24.png" />
+                <Label FontSize="10" Text="YOUR HISTORY" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center"/>
+            </StackLayout>
+
+            <BoxView  Margin="49, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.2"  HorizontalOptions="FillAndExpand"/>
+
+            <StackLayout x:Name="Citizen6" Orientation="Horizontal" Margin="20, 0, 0, 0" Opacity="0.6" VerticalOptions="FillAndExpand">
+                <Image Source="citizen_24.png" />
+                <Label FontSize="10" Text="NOTIFICATION" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center" />
+                <Image Source="not5_18.png" HorizontalOptions="EndAndExpand" Opacity="1" Margin="0, 0, 20, 0" />
+            </StackLayout>
+
+            <BoxView  Margin="49, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.2"  HorizontalOptions="FillAndExpand"/>
+
+            <StackLayout x:Name="Citizen7" Orientation="Horizontal" Margin="20, 0, 0, 0" VerticalOptions="FillAndExpand" Opacity="0.6">
+                <Image Source="citizen_24.png" />
+                <Label FontSize="10" Text="ABOUT ASA" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center" />
+            </StackLayout>
+
+            <Button VerticalOptions="EndAndExpand" Text="SWITCH TO VOLUNTEER" Margin="20, 0, 20, 10" TextColor="White" FontSize="10" HorizontalOptions="FillAndExpand" 
+               HeightRequest="35"   BackgroundColor="Black" BorderColor="White" BorderWidth="0.5" BorderRadius="0" Opacity="0.6" />
+        </StackLayout>
+    
+    </ContentPage.Content>
+</ContentPage>
