@@ -24,7 +24,6 @@
                 </Label>
             </StackLayout>
 
-
             <StackLayout x:Name="Citizen1" Orientation="Horizontal" Margin="20, 10, 0, 0" VerticalOptions="FillAndExpand">
                 <Image Source="citizen_24.png" />
                 <Label FontSize="10" Text="CITIZEN" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center"/>                
