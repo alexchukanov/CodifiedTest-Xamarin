@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:CodiTest"
              x:Class="CodiTest.MainPage">
     <ContentPage.Content>
-        <StackLayout Spacing="5" x:Name="layout" BackgroundColor="Black" >
+        <StackLayout Spacing="1" x:Name="layout" BackgroundColor="Black" >
 
             <StackLayout x:Name="Profile" Spacing="3" BackgroundColor="White"  VerticalOptions="Start" HorizontalOptions="FillAndExpand" Padding="10">
               
@@ -40,12 +40,16 @@
                 <Label FontSize="10" Text="CITIZEN" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center"/>
             </StackLayout>
 
+            <BoxView  Margin="49, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.2"  HorizontalOptions="FillAndExpand"/>
 
+            <Button Text="Request a Cleanup Job" FontSize="10"  BackgroundColor="Black" Margin="49, 0, 0, 0" TextColor="White" BorderRadius="0"  
+                    HorizontalOptions="StartAndExpand" />
 
-            <BoxView  FontSize="10" Text="Request a Cleanup Job" TextColor="White" Margin="49, 0, 0, 0" Opacity="0.2"   HorizontalOptions="FillAndExpand"/>
+            <Button Text="Reported Areas" FontSize="10" BackgroundColor="Black" Margin="49, 0, 0, 0" TextColor="White" BorderRadius="0"  
+                     HorizontalOptions="StartAndExpand" />
 
-            <Button Text="Request a Cleanup Job"  BackgroundColor="Black" Margin="10, 0, 0, 0" TextColor="White" BorderRadius="0"  
-                    VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand" />
+            <Button Text="Bless Our People" FontSize="10" BackgroundColor="Black" Margin="49, 0, 0, 0" TextColor="White" BorderRadius="0"  
+                     HorizontalOptions="StartAndExpand" />
 
             <!--Label FontSize="10" Text="Request a Cleanup Job" TextColor="White" Margin="49, 0, 0, 0" /> 
             <Label FontSize="10" Text="Reported Areas" TextColor="White" Margin="49, 0, 0, 0" VerticalTextAlignment="Center"/>
