@@ -53,7 +53,7 @@
 
             <BoxView  Margin="42, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.15"  HorizontalOptions="FillAndExpand"/>
 
-            <Button Text="YOUR HISTORY" Margin="10, 0, 0, 0" HeightRequest="36" FontSize="9" Opacity="0.6" HorizontalOptions="Start"  BackgroundColor="Black" TextColor="White" 
+            <Button Text="YOUR HISTORY" Margin="10, 0, 0, 0" HeightRequest="36" FontSize="9" Opacity="0.4" HorizontalOptions="Start"  BackgroundColor="Black" TextColor="White" 
                    VerticalOptions="FillAndExpand">
                 <Button.Image>
                     <OnPlatform x:TypeArguments="FileImageSource" Android="history_24_7.png"/>
@@ -62,13 +62,13 @@
          
             <BoxView  Margin="42, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.15"  HorizontalOptions="FillAndExpand"/>
 
-            <StackLayout  Orientation="Horizontal" Margin="10, 0, 20, 0" HeightRequest="36" Opacity="0.6" >                
-                <Button Text="NOTIFICATION"  HeightRequest="36" FontSize="9"  BackgroundColor="Black" TextColor="White" HorizontalOptions="StartAndExpand">
+            <StackLayout  Orientation="Horizontal" Margin="10, 0, 20, 0" HeightRequest="36"  >
+                <Button Text="NOTIFICATION"  HeightRequest="36" FontSize="9"  BackgroundColor="Black" Opacity="0.4" TextColor="White" HorizontalOptions="StartAndExpand">
                     <Button.Image>
                         <OnPlatform x:TypeArguments="FileImageSource" Android="notif_24_3.png"/>
                     </Button.Image>
                 </Button>
-                <Button  HeightRequest="18" WidthRequest="18" BackgroundColor="Black" Opacity="1" HorizontalOptions="End">
+                <Button  HeightRequest="18" WidthRequest="18" BackgroundColor="Black" HorizontalOptions="End">
                     <Button.Image>
                         <OnPlatform x:TypeArguments="FileImageSource" Android="not5_18.png" />
                     </Button.Image>
@@ -77,7 +77,7 @@
             
             <BoxView  Margin="42, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.15"  HorizontalOptions="FillAndExpand"/>
 
-            <Button Text="ABOUT ASA   " Margin="10, 0, 0, 0" HeightRequest="36" FontSize="9" Opacity="0.6" HorizontalOptions="Start"  BackgroundColor="Black" TextColor="White" 
+            <Button Text="ABOUT ASA   " Margin="10, 0, 0, 0" HeightRequest="36" FontSize="9" Opacity="0.4" HorizontalOptions="Start"  BackgroundColor="Black" TextColor="White" 
                     VerticalOptions="FillAndExpand">
                 <Button.Image>
                     <OnPlatform x:TypeArguments="FileImageSource" Android="about_24_3.png"/>
@@ -85,7 +85,7 @@
             </Button>            
             
             <Button VerticalOptions="EndAndExpand" Text="SWITCH TO VOLUNTEER" Margin="20, 0, 20, 10" TextColor="White" FontSize="9" HorizontalOptions="FillAndExpand" 
-               HeightRequest="36"   BackgroundColor="Black" BorderColor="White" BorderWidth="0.5" BorderRadius="0" Opacity="0.6" />
+               HeightRequest="36"   BackgroundColor="Black" BorderColor="White" BorderWidth="0.5" BorderRadius="0" Opacity="0.4" />
         </StackLayout>
     
     </ContentPage.Content>
