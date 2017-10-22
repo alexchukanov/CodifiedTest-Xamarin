@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:CodiTest"
              x:Class="CodiTest.MainPage">
     <ContentPage.Content>
-        <StackLayout Spacing="1" x:Name="layout" BackgroundColor="Black" >
+        <StackLayout Spacing="2" x:Name="layout" BackgroundColor="Black" >
 
             <StackLayout x:Name="Profile" Spacing="3" BackgroundColor="White"  VerticalOptions="Start" HorizontalOptions="FillAndExpand" Padding="10">
               
@@ -14,71 +14,78 @@
                         </Label.GestureRecognizers>
                     </Label>
 
-                <Image Source="meR3.png"  />
-                <Label FontSize="10" Text="Alex Chukanov" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" />
+                <Image Source="meR4.png"  />
+                <Label FontSize="9" Text="Alex Chukanov" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" />
 
-                <Label Text="VIEW PROFILE" TextColor="Red" FontSize="10" FontAttributes="Bold" HorizontalOptions="Center">
+                <Label Text="VIEW PROFILE" TextColor="Red" FontSize="9" FontAttributes="Bold" HorizontalOptions="Center">
                     <Label.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnLabelTapped" NumberOfTapsRequired="1" />
                     </Label.GestureRecognizers>
                 </Label>
             </StackLayout>
 
+            <Button Text="CITIZEN       " Margin="10, 0, 0, 0" HeightRequest="36" FontSize="9" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" BackgroundColor="Black" TextColor="White">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource" Android="citizen_24.png"/>
+                </Button.Image>
+            </Button>
+
+            <BoxView  Margin="42, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.15"  HorizontalOptions="FillAndExpand"/>
+
+            <Label FontSize="9" Text="Request a Cleanup Job" HeightRequest="36" TextColor="White" Margin="42, 0, 0, 0" VerticalOptions="FillAndExpand">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnLabelTapped" NumberOfTapsRequired="1" />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Label FontSize="9" Text="Reported Areas" TextColor="White" HeightRequest="36" Margin="42, 0, 0, 0" VerticalOptions="FillAndExpand">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnLabelTapped" NumberOfTapsRequired="1" />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Label FontSize="9" Text="Bless Our People" TextColor="White" HeightRequest="36" Margin="42, 0, 0, 0"  VerticalOptions="FillAndExpand" >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnLabelTapped" NumberOfTapsRequired="1" />
+                </Label.GestureRecognizers>
+            </Label>
             
-            <!--StackLayout x:Name="Citizen1" Orientation="Horizontal" Margin="20, 10, 0, 0" VerticalOptions="FillAndExpand">
-                <Image Source="citizen_24.png" />
-                <Label FontSize="10" Text="CITIZEN" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center"/>                
-            </>-->
 
+            <BoxView  Margin="42, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.15"  HorizontalOptions="FillAndExpand"/>
 
-            <StackLayout x:Name="Citizen1" Orientation="Horizontal" Margin="20, 10, 0, 0" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
-                <Button  WidthRequest="24" HeightRequest="24"  >
+            <Button Text="YOUR HISTORY" Margin="10, 0, 0, 0" HeightRequest="36" FontSize="9" Opacity="0.6" HorizontalOptions="Start"  BackgroundColor="Black" TextColor="White" 
+                   VerticalOptions="FillAndExpand">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource" Android="history_24_7.png"/>
+                </Button.Image>
+            </Button>
+         
+            <BoxView  Margin="42, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.15"  HorizontalOptions="FillAndExpand"/>
+
+            <StackLayout  Orientation="Horizontal" Margin="10, 0, 20, 0" HeightRequest="36" Opacity="0.6" >                
+                <Button Text="NOTIFICATION"  HeightRequest="36" FontSize="9"  BackgroundColor="Black" TextColor="White" HorizontalOptions="StartAndExpand">
                     <Button.Image>
-                        <OnPlatform x:TypeArguments="FileImageSource" Android="citizen_24.png"/>
+                        <OnPlatform x:TypeArguments="FileImageSource" Android="notif_24_3.png"/>
                     </Button.Image>
                 </Button>
-                <Label FontSize="10" Text="CITIZEN" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center"/>
+                <Button  HeightRequest="18" WidthRequest="18" BackgroundColor="Black" Opacity="1" HorizontalOptions="End">
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource" Android="not5_18.png" />
+                    </Button.Image>
+                </Button>
             </StackLayout>
+            
+            <BoxView  Margin="42, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.15"  HorizontalOptions="FillAndExpand"/>
 
-            <BoxView  Margin="49, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.2"  HorizontalOptions="FillAndExpand"/>
-
-            <Button Text="Request a Cleanup Job" FontSize="10"  BackgroundColor="Black" Margin="49, 0, 0, 0" TextColor="White" BorderRadius="0"  
-                    HorizontalOptions="StartAndExpand" />
-
-            <Button Text="Reported Areas" FontSize="10" BackgroundColor="Black" Margin="49, 0, 0, 0" TextColor="White" BorderRadius="0"  
-                     HorizontalOptions="StartAndExpand" />
-
-            <Button Text="Bless Our People" FontSize="10" BackgroundColor="Black" Margin="49, 0, 0, 0" TextColor="White" BorderRadius="0"  
-                     HorizontalOptions="StartAndExpand" />
-
-            <!--Label FontSize="10" Text="Request a Cleanup Job" TextColor="White" Margin="49, 0, 0, 0" /> 
-            <Label FontSize="10" Text="Reported Areas" TextColor="White" Margin="49, 0, 0, 0" VerticalTextAlignment="Center"/>
-            <Label FontSize="10" Text="Bless Our People" TextColor="White" Margin="49, 0, 0, 0" VerticalTextAlignment="Center"/-->
-
-            <BoxView  Margin="49, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.2"  HorizontalOptions="FillAndExpand"/>
-
-            <StackLayout x:Name="Citizen5" Orientation="Horizontal" Margin="20, 0, 0, 0" Opacity="0.6" VerticalOptions="FillAndExpand">
-                <Image Source="history_24_7.png" />
-                <Label FontSize="10" Text="YOUR HISTORY" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center"/>
-            </StackLayout>
-
-            <BoxView  Margin="49, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.2"  HorizontalOptions="FillAndExpand"/>
-
-            <StackLayout x:Name="Citizen6" Orientation="Horizontal" Margin="20, 0, 0, 0" Opacity="0.6" VerticalOptions="FillAndExpand">
-                <Image Source="notif_24_3.png" />
-                <Label FontSize="10" Text="NOTIFICATION" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center" />
-                <Image Source="not5_18.png" HorizontalOptions="EndAndExpand" Opacity="1" Margin="0, 0, 20, 0" />
-            </StackLayout>
-
-            <BoxView  Margin="49, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.2"  HorizontalOptions="FillAndExpand"/>
-
-            <StackLayout x:Name="Citizen7" Orientation="Horizontal" Margin="20, 0, 0, 0" VerticalOptions="FillAndExpand" Opacity="0.6">
-                <Image Source="about_24_3.png" />
-                <Label FontSize="10" Text="ABOUT ASA" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center" />
-            </StackLayout>
-
-            <Button VerticalOptions="EndAndExpand" Text="SWITCH TO VOLUNTEER" Margin="20, 0, 20, 10" TextColor="White" FontSize="10" HorizontalOptions="FillAndExpand" 
-               HeightRequest="35"   BackgroundColor="Black" BorderColor="White" BorderWidth="0.5" BorderRadius="0" Opacity="0.6" />
+            <Button Text="ABOUT ASA   " Margin="10, 0, 0, 0" HeightRequest="36" FontSize="9" Opacity="0.6" HorizontalOptions="Start"  BackgroundColor="Black" TextColor="White" 
+                    VerticalOptions="FillAndExpand">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource" Android="about_24_3.png"/>
+                </Button.Image>
+            </Button>            
+            
+            <Button VerticalOptions="EndAndExpand" Text="SWITCH TO VOLUNTEER" Margin="20, 0, 20, 10" TextColor="White" FontSize="9" HorizontalOptions="FillAndExpand" 
+               HeightRequest="36"   BackgroundColor="Black" BorderColor="White" BorderWidth="0.5" BorderRadius="0" Opacity="0.6" />
         </StackLayout>
     
     </ContentPage.Content>
