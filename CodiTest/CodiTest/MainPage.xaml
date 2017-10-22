@@ -24,16 +24,32 @@
                 </Label>
             </StackLayout>
 
-            <StackLayout x:Name="Citizen1" Orientation="Horizontal" Margin="20, 10, 0, 0" VerticalOptions="FillAndExpand">
+            
+            <!--StackLayout x:Name="Citizen1" Orientation="Horizontal" Margin="20, 10, 0, 0" VerticalOptions="FillAndExpand">
                 <Image Source="citizen_24.png" />
                 <Label FontSize="10" Text="CITIZEN" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center"/>                
+            </>-->
+
+
+            <StackLayout x:Name="Citizen1" Orientation="Horizontal" Margin="20, 10, 0, 0" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
+                <Button  WidthRequest="24" HeightRequest="24"  >
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource" Android="citizen_24.png"/>
+                    </Button.Image>
+                </Button>
+                <Label FontSize="10" Text="CITIZEN" TextColor="White" Margin="5, 0, 0, 0" VerticalTextAlignment="Center"/>
             </StackLayout>
 
-            <BoxView  Margin="49, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.2"  HorizontalOptions="FillAndExpand"/>
 
-            <Label FontSize="10" Text="Request a Cleanup Job" TextColor="White" Margin="49, 0, 0, 0" /> 
+
+            <BoxView  FontSize="10" Text="Request a Cleanup Job" TextColor="White" Margin="49, 0, 0, 0" Opacity="0.2"   HorizontalOptions="FillAndExpand"/>
+
+            <Button Text="Request a Cleanup Job"  BackgroundColor="Black" Margin="10, 0, 0, 0" TextColor="White" BorderRadius="0"  
+                    VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand" />
+
+            <!--Label FontSize="10" Text="Request a Cleanup Job" TextColor="White" Margin="49, 0, 0, 0" /> 
             <Label FontSize="10" Text="Reported Areas" TextColor="White" Margin="49, 0, 0, 0" VerticalTextAlignment="Center"/>
-            <Label FontSize="10" Text="Bless Our People" TextColor="White" Margin="49, 0, 0, 0" VerticalTextAlignment="Center"/>
+            <Label FontSize="10" Text="Bless Our People" TextColor="White" Margin="49, 0, 0, 0" VerticalTextAlignment="Center"/-->
 
             <BoxView  Margin="49, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.2"  HorizontalOptions="FillAndExpand"/>
 
