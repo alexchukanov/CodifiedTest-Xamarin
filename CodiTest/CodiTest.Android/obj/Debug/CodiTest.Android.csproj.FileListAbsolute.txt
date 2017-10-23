@@ -51,6 +51,8 @@ C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdp
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\notif_24_3.png
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\about_24_3.png
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\history_24_7.png
+C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\citizen_24.png
+C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\mer4.png
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\R.cs.flag
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\uploadflags.txt
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\bin\Debug\CodiTest.dll.mdb
@@ -61,5 +63,3 @@ C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\android\assets\F
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\citizen_24.png
-C:\XamarinProjects\CodiTest\CodiTest\CodiTest.Android\obj\Debug\res\drawable-hdpi\mer4.png

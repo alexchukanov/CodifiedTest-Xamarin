@@ -4,7 +4,33 @@
              x:Class="CodiTest.App">
 	<Application.Resources>
 
-		<!-- Application resource dictionary -->
+        <ResourceDictionary>
+            <ControlTemplate x:Key="ProfileTemplate">
+                <StackLayout Spacing="2" x:Name="layout" BackgroundColor="Black" >
 
-	</Application.Resources>
+                        <StackLayout x:Name="ProfileLayoute" Spacing="3" BackgroundColor="White"  VerticalOptions="Start" HorizontalOptions="FillAndExpand" Padding="10">
+
+                        <Label TextColor="Red" Text="Close X" FontSize="10"  HorizontalOptions="End" VerticalOptions="Start">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer  NumberOfTapsRequired="1" />
+                            </Label.GestureRecognizers>
+                        </Label>
+
+                        <!-- and also be as useful as possible, ie not just a load of flat hardcoded images so in future viewmodel it could be bound successfully-->
+                        <Image Source="{TemplateBinding Parent.ImageName}"/>
+
+                        <Label FontSize="9" Text="Alex Chukanov" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" />
+
+                        <Label Text="VIEW PROFILE" TextColor="Red" FontSize="9" FontAttributes="Bold" HorizontalOptions="Center">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer NumberOfTapsRequired="1" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                    <ContentPresenter/>
+                </StackLayout>
+            </ControlTemplate>
+        </ResourceDictionary>
+        
+    </Application.Resources>
 </Application>

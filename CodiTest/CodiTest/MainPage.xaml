@@ -3,19 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:CodiTest"
              x:Class="CodiTest.MainPage">
-    <ContentPage.Content>
-        <StackLayout x:Name="MainLayoute" Spacing="2" BackgroundColor="Black" >
 
-            <StackLayout x:Name="ProfileLayoute" Spacing="3" BackgroundColor="White"  VerticalOptions="Start" HorizontalOptions="FillAndExpand" Padding="10">
+    <ContentView x:Name="contentView" ControlTemplate="{StaticResource ProfileTemplate}">
+
+        <StackLayout>
+
+            <!--StackLayout x:Name="Profile" Spacing="3" BackgroundColor="White"  VerticalOptions="Start" HorizontalOptions="FillAndExpand" Padding="10">
               
-                <Label TextColor="Red" Text="Close X" FontSize="10"  HorizontalOptions="End" VerticalOptions="Start">
-                    <Label.GestureRecognizers>
-                      <TapGestureRecognizer Tapped="OnLabelTapped" NumberOfTapsRequired="1" />
-                    </Label.GestureRecognizers>
-                </Label>
+                    <Label TextColor="Red" Text="Close X" FontSize="9"  HorizontalOptions="End" VerticalOptions="Start">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnLabelTapped" NumberOfTapsRequired="1" />
+                        </Label.GestureRecognizers>
+                    </Label>
 
                 <Image Source="meR4.png"  />
-                
                 <Label FontSize="9" Text="Alex Chukanov" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" />
 
                 <Label Text="VIEW PROFILE" TextColor="Red" FontSize="9" FontAttributes="Bold" HorizontalOptions="Center">
@@ -23,8 +24,8 @@
                         <TapGestureRecognizer Tapped="OnLabelTapped" NumberOfTapsRequired="1" />
                     </Label.GestureRecognizers>
                 </Label>
-            </StackLayout>
-
+            
+            
             <Button Text="CITIZEN       " Margin="10, 0, 0, 0" HeightRequest="36" FontSize="9" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" BackgroundColor="Black" TextColor="White">
                 <Button.Image>
                     <OnPlatform x:TypeArguments="FileImageSource" Android="citizen_24.png"/>
@@ -33,62 +34,64 @@
 
             <BoxView  Margin="42, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.15"  HorizontalOptions="FillAndExpand"/>
 
-
-            <Label FontSize="9" Text="Request a Cleanup Job" HeightRequest="36" TextColor="White" Margin="42, 0, 0, 0" VerticalOptions="FillAndExpand">
+            <Label FontSize="9" Text="Request a Cleanup Job" HeightRequest="36" TextColor="White" Margin="42, 0, 0, 0" >
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnLabelTapped" NumberOfTapsRequired="1" />
                 </Label.GestureRecognizers>
             </Label>
 
-            <Label FontSize="9" Text="Reported Areas" TextColor="White" HeightRequest="36" Margin="42, 0, 0, 0" VerticalOptions="FillAndExpand">
+            <Label FontSize="9" Text="Reported Areas" TextColor="White" HeightRequest="36" Margin="42, 0, 0, 0" >
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnLabelTapped" NumberOfTapsRequired="1" />
                 </Label.GestureRecognizers>
             </Label>
 
-            <Label FontSize="9" Text="Bless Our People" TextColor="White" HeightRequest="36" Margin="42, 0, 0, 0"  VerticalOptions="FillAndExpand" >
+            <Label FontSize="9" Text="Bless Our People" TextColor="White" HeightRequest="36" Margin="42, 0, 0, 0" >
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnLabelTapped" NumberOfTapsRequired="1" />
                 </Label.GestureRecognizers>
             </Label>
-            
+
 
             <BoxView  Margin="42, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.15"  HorizontalOptions="FillAndExpand"/>
 
-            <Button Text="YOUR HISTORY" Margin="10, 0, 0, 0" HeightRequest="36" FontSize="9" Opacity="0.4" HorizontalOptions="Start"  BackgroundColor="Black" TextColor="White" 
+            <Button Text="YOUR HISTORY" Margin="10, 0, 0, 0" HeightRequest="36" FontSize="9" Opacity="0.6" HorizontalOptions="Start"  BackgroundColor="Black" TextColor="White" 
                    VerticalOptions="FillAndExpand">
                 <Button.Image>
                     <OnPlatform x:TypeArguments="FileImageSource" Android="history_24_7.png"/>
                 </Button.Image>
             </Button>
-         
+
             <BoxView  Margin="42, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.15"  HorizontalOptions="FillAndExpand"/>
 
-            <StackLayout  Orientation="Horizontal" Margin="10, 0, 20, 0" HeightRequest="36"  >
-                <Button Text="NOTIFICATION"  HeightRequest="36" FontSize="9"  BackgroundColor="Black" Opacity="0.4" TextColor="White" HorizontalOptions="StartAndExpand">
+            <StackLayout  Orientation="Horizontal" Margin="10, 0, 20, 0" HeightRequest="36" Opacity="0.6" >
+                <Button Text="NOTIFICATION"  HeightRequest="36" FontSize="9"  BackgroundColor="Black" TextColor="White" HorizontalOptions="StartAndExpand">
                     <Button.Image>
                         <OnPlatform x:TypeArguments="FileImageSource" Android="notif_24_3.png"/>
                     </Button.Image>
                 </Button>
-                <Button  HeightRequest="18" WidthRequest="18" BackgroundColor="Black" HorizontalOptions="End">
+                <Button  HeightRequest="18" WidthRequest="18" BackgroundColor="Black" Opacity="1" HorizontalOptions="End">
                     <Button.Image>
                         <OnPlatform x:TypeArguments="FileImageSource" Android="not5_18.png" />
                     </Button.Image>
                 </Button>
             </StackLayout>
-            
+
             <BoxView  Margin="42, 0, 20, 0" HeightRequest="1" BackgroundColor="White" Opacity="0.15"  HorizontalOptions="FillAndExpand"/>
 
-            <Button Text="ABOUT ASA   " Margin="10, 0, 0, 0" HeightRequest="36" FontSize="9" Opacity="0.4" HorizontalOptions="Start"  BackgroundColor="Black" TextColor="White" 
+            <Button Text="ABOUT ASA   " Margin="10, 0, 0, 0" HeightRequest="36" FontSize="9" Opacity="0.6" HorizontalOptions="Start"  BackgroundColor="Black" TextColor="White" 
                     VerticalOptions="FillAndExpand">
                 <Button.Image>
                     <OnPlatform x:TypeArguments="FileImageSource" Android="about_24_3.png"/>
                 </Button.Image>
-            </Button>            
-            
+            </Button>
+
             <Button VerticalOptions="EndAndExpand" Text="SWITCH TO VOLUNTEER" Margin="20, 0, 20, 10" TextColor="White" FontSize="9" HorizontalOptions="FillAndExpand" 
-               HeightRequest="36"   BackgroundColor="Black" BorderColor="White" BorderWidth="0.5" BorderRadius="0" Opacity="0.4" />
+               HeightRequest="36"   BackgroundColor="Black" BorderColor="White" BorderWidth="0.5" BorderRadius="0" Opacity="0.6" />
+
+
         </StackLayout>
-    
-    </ContentPage.Content>
+
+    </ContentView>
+
 </ContentPage>

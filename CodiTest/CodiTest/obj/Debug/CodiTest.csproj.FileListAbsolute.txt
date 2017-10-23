@@ -5,7 +5,6 @@ C:\XamarinProjects\CodiTest\CodiTest\CodiTest\bin\Debug\Xamarin.Forms.Platform.d
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest\bin\Debug\Xamarin.Forms.Xaml.dll
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest\bin\Debug\Xamarin.Forms.Core.pdb
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest\bin\Debug\Xamarin.Forms.Core.xml
-C:\XamarinProjects\CodiTest\CodiTest\CodiTest\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest\obj\Debug\CodiTest.csproj.CoreCompileInputs.cache
@@ -13,4 +12,3 @@ C:\XamarinProjects\CodiTest\CodiTest\CodiTest\obj\Debug\CodiTest.MainPage.xaml.g
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest\obj\Debug\CodiTest.App.xaml.g.cs
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest\obj\Debug\CodiTest.dll
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest\obj\Debug\CodiTest.pdb
-C:\XamarinProjects\CodiTest\CodiTest\CodiTest\obj\Debug\CodiTest.csprojResolveAssemblyReference.cache
