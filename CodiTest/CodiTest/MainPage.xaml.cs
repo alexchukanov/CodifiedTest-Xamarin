@@ -11,24 +11,30 @@ namespace CodiTest
     {
        
         public static readonly BindableProperty ImageNameTextProperty =
-                    BindableProperty.Create("ImageNamet", typeof(string), typeof(MainPage), "meR4.png");
-       
+                    BindableProperty.Create("ImageNamet", typeof(string), typeof(MainPage), "");
+
+        public static readonly BindableProperty PersonNameTextProperty =
+                    BindableProperty.Create("PersonName", typeof(string), typeof(MainPage), "");
+
 
         public string ImageName
         {
             set { SetValue(ImageNameTextProperty, value); }
             get { return (string)GetValue(ImageNameTextProperty); }
         }
-       
-       
+
+        public string PersonName
+        {
+            set { SetValue(PersonNameTextProperty, value); }
+            get { return (string)GetValue(PersonNameTextProperty); }
+        }
+
         public MainPage()
         {
             InitializeComponent();
-        }
 
-        private void OnLabelTapped(object sender, EventArgs e)
-        {
-
-        }
+            ImageName = "meR4.png";
+            PersonName = "Alex Chukanov";
+        }        
     }
 }

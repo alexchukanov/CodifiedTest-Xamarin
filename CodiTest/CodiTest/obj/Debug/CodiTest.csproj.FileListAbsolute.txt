@@ -12,3 +12,4 @@ C:\XamarinProjects\CodiTest\CodiTest\CodiTest\obj\Debug\CodiTest.MainPage.xaml.g
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest\obj\Debug\CodiTest.App.xaml.g.cs
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest\obj\Debug\CodiTest.dll
 C:\XamarinProjects\CodiTest\CodiTest\CodiTest\obj\Debug\CodiTest.pdb
+C:\XamarinProjects\CodiTest\CodiTest\CodiTest\obj\Debug\CodiTest.csprojResolveAssemblyReference.cache
