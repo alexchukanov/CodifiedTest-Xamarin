@@ -24,8 +24,11 @@
                         <TapGestureRecognizer Tapped="OnLabelTapped" NumberOfTapsRequired="1" />
                     </Label.GestureRecognizers>
                 </Label>
-            
-            
+            </>-->
+
+
+
+
             <Button Text="CITIZEN       " Margin="10, 0, 0, 0" HeightRequest="36" FontSize="9" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" BackgroundColor="Black" TextColor="White">
                 <Button.Image>
                     <OnPlatform x:TypeArguments="FileImageSource" Android="citizen_24.png"/>
